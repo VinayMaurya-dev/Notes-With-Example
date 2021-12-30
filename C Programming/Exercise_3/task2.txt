@@ -1,0 +1,9 @@
+//wap to input a number and print only odd digit number. 
+//wap to input a number and print of  1 at the place of
+// even digits and print 0 at the place of odd digits.
+// wap to input a number and print sum of even digits and sum of odd digits.
+// wap to input a number and count how many digits is even and how many digits are odd.
+// wap to input a 2 digit number and print tens digit and once digit.
+// 
+// wap to remove all 0 from a number. 
+//wap to  input number from while user choice is 1 and print sum of all numbers. 

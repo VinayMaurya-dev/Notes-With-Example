@@ -1,0 +1,211 @@
+******************.NET********************
+-----------------------------------------------------------------
+MVC:-
+--------
+MODEL VIEW CONTROLER
+databace +designing +programming
+
+C#, MVC,ADO.NET, STORED PROCEDURE,WEB SECVICES,PROJECT
+
+C#-developed by :- Hejalberg in 2000.
+
+
+.NET FRAMEWORK
+--------------------------
+.NET :- it was developed dy Microsoft team mainly by ANDERS & HEGALBERG in 2000. It is a framework by Microsoft that provides a environment to write and the whole application on a single plateform .
+
+
+.NET IDE- VISUAL STUDIO
+During the development of .NET,C# was  developed.
+
+C -C++ - C#
+
+C# :- C# is general purpose ,high level obeject oriented programming language.
+Many other programming languages are just used to develop a single type of application but C# is used to develop Console based application Web application and Mobile Application.
+
+Besides C# other 30+ Programming languages are provided by Microsoft with .NET fremework .According to the  developer choice any language can be used in development.
+
+But mostly used programming language with .NET is C# . It is the extension of c++.
+
+
+Obeject Oriented Programming Language :-
+****************************************
+obejct Oriented Programming language mainly provides two feature to the programming .
+First is Security and seconds is Code Reusabilty. In object Oriented programming language every methods are encapsulated/written within classes.
+
+pascal
+------
+all first word will be capital letter.
+
+What is namespace:-
+------------------------
+Namespace is the collection of multiple classes. Namespace is the logical collection normally can be think as a folder containing multiple.cs files.
+
+By default, the main namespace of the C# is system.
+
+If you want to acces any class declared within a namespace then firstly we have to include the namespace in file.
+
+Syntax:-
+----------
+using NameSpace_name;
+
+Classes:-
+-------
+Classes is the collection data_member and member_function.
+In simple word classes is the collection of multiple variables and methods.
+
+Any variables/method declared in the class, is directly accessible in any other methods. You do not need to create instance of the class.
+
+Only static member can not access the non-static members of the class.
+
+Syntax:-
+-------
+class class_name
+{
+Data_member(variable);
+Member_function(methods);
+
+}
+
+One Dimensional Array:- 
+********************
+one Dimensional array  also called 1D array is used to  store multiple value in a series on different index of array.
+
+int[] arr_name=new int[size];
+Length: Length is the Property of array which is used to get total number of element in array.
+
+Many function are used to the array type can be called by using Array class.
+
+for the Example:-
+---------------
+Array.Sort(array);
+Array.IndexOf()
+Array.Reverse() 
+
+*******************************************************************************
+Two Dimensional Array:-
+*********************
+Also called 2D array . It is used to store values in form of rows and column., like a table,a matrix. In 2D array number of column in each rows are same. it can not be different.
+
+Syntax to declare a 2D array:-
+*************************
+Data_type[,] array_name=new data_type[rows_size,column_name];
+
+Example:-
+--------
+Let's Create 2D Array with 2 rows and 3 Column to store int type value.
+
+int[,] arr=new int[2,3];
+
+Direct Initialization :-
+*********************
+int[,] arr=new int[,] {{2,3,4},{4,5,7}}
+Console.WriteLine(arr.Length);
+
+int[,] arr={{2,3,4},{4,5,7}}
+Console.WriteLine(arr.Length);
+
+ //wap to input a matrix of 3*4 and print element in matrix format.
+
+
+------------------------------------------------------------------------------------------------------------
+Object oriented programming language :
+	it is a programming paradigm which provides a well managed way to program.
+It enclose all member and function in a single unit named class.
+Class:-
+--------
+       class is the collection of data member(properties) and member function.
+ 	
+
+Constructor:-
+-------------
+Constructor is method declared within the class that have same name as the class.
+Constructor should not be private.
+Constructor call automatic with creation of object.when we create object of a class by using 
+new keyword then statements of constructor executes automatic.
+
+So thier is no need to call constructor explicitly.
+
+Constructor does not have any return type not void.
+
+A class may have more that one overloaded conctructor.
+
+An implicit Constructor is always with each class which performs initialization of class variables on behalf of programmer at the time of object creation.
+
+So default value of class variable defined by implicit constructor is : 
+int type variable 0
+string type variable null
+float type variable 0
+-------------------------------------------------------------------------------------------------------------------
+Type of Constructor:-
+--------------------------
+1. Default constructor
+	explicit Constructor/defined by programmer
+	implicit constructor/defined by compilar
+2.Paramerterized Constructor
+3.Copy Constructor
+4.static constructor
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

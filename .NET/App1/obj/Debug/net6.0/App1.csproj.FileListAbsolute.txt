@@ -1,0 +1,15 @@
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\App1.exe
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\App1.deps.json
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\App1.runtimeconfig.json
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\App1.dll
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\ref\App1.dll
+D:\Apprenticeship_vinay\.NET\App1\bin\Debug\net6.0\App1.pdb
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.AssemblyInfoInputs.cache
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.AssemblyInfo.cs
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.csproj.CoreCompileInputs.cache
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.dll
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\ref\App1.dll
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.pdb
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.genruntimeconfig.cache
+D:\Apprenticeship_vinay\.NET\App1\obj\Debug\net6.0\App1.csproj.AssemblyReference.cache

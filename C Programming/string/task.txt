@@ -1,0 +1,6 @@
+//wap to count total words, character in a string
+//wap to print length of a string without using pre-defined function.
+//wap to print sort form of your name
+i/p : ram singh o/p: r.s.
+// wap to print sort form of your name
+i/p :

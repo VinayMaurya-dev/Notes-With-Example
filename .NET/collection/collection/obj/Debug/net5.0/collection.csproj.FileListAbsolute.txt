@@ -1,0 +1,16 @@
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.exe
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.deps.json
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.runtimeconfig.json
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.runtimeconfig.dev.json
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.dll
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\ref\collection.dll
+D:\Apprenticeship_vinay\.NET\collection\collection\bin\Debug\net5.0\collection.pdb
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.csproj.AssemblyReference.cache
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.AssemblyInfoInputs.cache
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.AssemblyInfo.cs
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.csproj.CoreCompileInputs.cache
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.dll
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\ref\collection.dll
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.pdb
+D:\Apprenticeship_vinay\.NET\collection\collection\obj\Debug\net5.0\collection.genruntimeconfig.cache

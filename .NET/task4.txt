@@ -1,0 +1,19 @@
+__________________________________TASk_______________________________________
+1.
+----
+1.Namespace  :MainProject- Program.cs
+2. Namespace : intOperation - Calculator
+
+public int add(int a,int b)
+private int suntract(int a ,int b)
+internal int multiply (int a,int b)
+protected int devide (int a,int b)
+protected internal int remaindar (int a,int b)
+
+Program.Cs: // Check how many of functions of calculator class is accessible here
+
+----------------------------------------------------------------------------------
+2.
+---
+scope table for each access specifier 
+within class,within subclass(same namespace),within nonsubclass(same namespace),without subclass(different namespace),within not-subclass(different namespace)

@@ -1,0 +1,10 @@
+//wap to print all number of a series by using Udf
+void series()
+void series(int start int end)
+//wap to count all even number within a series.
+void series()
+void series(int start int end)
+
+//wap with  UDF to add two integer value and  second to add two float value
+void add(int a,int b)
+void fadd(float a,float b)

@@ -1,0 +1,25 @@
+QUESTION NO.1:
+------------
+1. Bank
+Properties : Accblnc Holder Name, Interest
+Constructor :
+	defalut:
+	Accblnc=500;
+	Holder Name= User
+	interest :5
+	Parameterized :
+	Bank(int accblnc,string name,double interset)
+Method : void Credit balance(int blnc) 
+		void Debit Balance (int blnc)
+		
+ApplicationException :
+		Multiply 100: credit balance in multiply of 100.
+		Accblnc > debitbalance:  Balance Corrupt.
+
+------------------------------------------
+QUESTION NO.2:
+------------
+Exception : SmalNameException :Three Character smaller
+Enter Your Name
+Enter Your Father Name
+Enter Your College Name

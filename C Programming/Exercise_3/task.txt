@@ -1,0 +1,8 @@
+////wap to each digit of a number.
+////wap to print digits all digits of  numeber in seprate lines.
+//wap to sum of all digits of a number.
+//wap to reverse of a number.
+//wap to check number is polindrome  or not.
+//wap to check number is a armstrong number or not
+//wap to print sum of squre   of all digits of a number.
+ 

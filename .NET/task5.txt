@@ -1,0 +1,32 @@
+--------------------task-------------
+  //indexer  delegates, eccapsulation...
+Types of inheritance
+3 bulit in inherited classes
+
+Collection:- 
+1. wap to input  multiple cities name and end the input task when user inputs stop.
+print the all cities inn one line.
+
+wap to ask name ,email, contact number , fee ,address of a student and print all detais of student.
+
+wap to ask name ,email, contact number , fee ,address of a student and print all data of students.
+
+wap to store data of 5 employees : name,empid,salary, mobile no,companyName
+where companyName of each employees is "Techpile TEchnology PVT ltd"
+Basic Salary if each emoloyeee -4000 : defalut Constructor.
+1st emp salary =basic salary
+
+
+
+class -bank
+Property bankname,interest,accNo,Currentbalance
+,display (return current balance;)
+
+Method:										void debitbalance(int balance);		
+void creditbalance(int balance);
+void calculateloan(int balance,double year)
+
+SBI
+constcuctor
+default: 	bankname	 interest 7%
+paramerised: (Acc no, curbalance)																																																																																																																		

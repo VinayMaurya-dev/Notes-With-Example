@@ -1,0 +1,14 @@
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.csproj.AssemblyReference.cache
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.AssemblyInfoInputs.cache
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.AssemblyInfo.cs
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.csproj.CoreCompileInputs.cache
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.exe
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.deps.json
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.runtimeconfig.json
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.runtimeconfig.dev.json
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.dll
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\bin\Debug\netcoreapp3.1\myapp1.pdb
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.dll
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.pdb
+D:\Apprenticeship_vinay\.NET\myapp1\myapp1\obj\Debug\netcoreapp3.1\myapp1.genruntimeconfig.cache

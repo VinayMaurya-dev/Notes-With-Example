@@ -1,0 +1,396 @@
+=============================================TASK===========================================
+// wap to input A  3*3 matrix and count how many element are greater than 10
+// wap to input A 3*3 and change all diagonal element by 1(Direct Input)
+// wap to print this is a identity  matrix if all right diagonal and left diagonal elements are 1.
+//wap to input matrix 3*3 and print only digonal .
+//wap to input 6 ,5,7 element in a jagged array and print sum of all even elements of each row.
+// wap to input 5,4 elements in rows in jagged array and print all element of row in reverse order.
+// wap to input 3,5,7,8 in jagged array and print each row element in assending order.
+// wap to input 3,5,7,8 in jagged array and print each row element in descending order.
+// wap to make a jagged array of 2,4,5 and print sum of column.
+
+------------------------------------------
+1.//wap to in C# to input 10 cities
+ // and count how many times lucknow present in array.  
+ 
+ using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //wap to in C# to input 10 cities
+            //and count how many cities name endsWith a
+            // and count how many times lucknow present in array.
+            string[] city = new string[10];
+            Console.WriteLine("Enter 10 Cities :");
+            for (int i = 0; i <= 9; i++)
+                city[i] = Console.ReadLine();
+            int count = 0;
+            for (int i = 0; i <= 9; i++)
+                if (city[i].ToUpper() == "LUCKNOW")
+                    count++;
+                  Console.WriteLine($"{count} Times Lucknow present in Array ");
+        }
+
+    }
+}
+
+=============================================================================================
+2.//wap to in C# to input 10 cities
+// and print all city name in Uppercase using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //wap to in C# to input 10 cities
+            // and print all city name in Uppercase
+            //and count how many cities name endsWith a
+            // and count how many times lucknow present in array.
+            string[] city = new string[10]; 
+            Console.WriteLine("Enter 10 Cities :");
+            for (int i = 0; i <= 9; i++)
+                city[i] = Console.ReadLine();
+            for (int i = 0; i <= 9; i++)
+                Console.WriteLine(city[i].ToUpper());
+        }
+
+    }
+}
+===============================================================================
+3. //wap to in C# to input 10 cities
+ //and count how many cities name endsWith e.
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //wap to in C# to input 10 cities
+            //and count how many cities name endsWith a 
+            string[] city = new string[10];
+            Console.WriteLine("Enter 10 Cities :");
+            for (int i = 0; i <= 9; i++)
+                city[i] = Console.ReadLine();
+            for (int i = 0; i <= 9; i++)
+                if(city[i].EndsWith('e'))
+                    Console.WriteLine(city[i].ToUpper());
+        }
+
+    }
+}
+===================================================================================================
+
+//wap in c# to input 10 elements of array and count how many dividors of element is present of array.
+// wap to input 10 element of array form user input, but array contains only even Element and  print
+all element of array.
+// wap to input 10 element--
+
+=================================================================================================
+
+4. //wap to input 10 element of array and print addition of all elements.
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int[] num = new int[10];
+            Console.WriteLine("Enter 10 Element for print Sum of Element :");
+            
+            for (int i = 0; i < num.Length; i++)
+                num[i]=int.Parse(Console.ReadLine());
+
+            int sum = 0;
+            for (int i = 0; i < num.Length; i++)
+                sum = sum + num[i];
+            Console.WriteLine("Total sum of 10 Element :" + sum);
+        }
+    }
+}
+===========================================================================================
+5. //wap to input 10 Cities ina array and count how mant cities name are at
+least
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            4character long.
+            string[] cities = new string[10];
+            Console.WriteLine("Enter 10 Cities");
+            
+            for (int i = 0; i < cities.Length; i++)
+                cities[i]=(Console.ReadLine());
+
+            int count = 0;
+            for (int i = 0; i < cities.Length; i++)
+            {
+                if (cities[i].Length >= 4)
+                    count++;
+            }
+            Console.WriteLine("Total cities atleast 4 character :" + count);
+        }
+    }
+}
+
+============================================================================================
+
+6.//wap to input 5 Element to find frequency of element.
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int[] element = new int[5];
+            Console.WriteLine("Enter 5 element");
+
+            for (int i = 0; i < element.Length; i++)
+                element[i] = int.Parse(Console.ReadLine());
+			int count;
+            for (int i = 0; i < element.Length; i++)
+            {
+                 count=0;
+                 for(int j=0;j<element.Length;j++)
+                {
+                    if (element[i] == element[j])
+                        count++;
+                }
+                Console.WriteLine($"{element[i]}  Present {count} time in array ");
+        }
+    }
+}
+
+================================================================================================
+7.//Enter n number of Element and print sum of all even number.
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Size :");
+            int size,i,sum=0;
+            size =Int32.Parse(Console.ReadLine());
+            int[] num = new int[size];
+            Console.WriteLine("Enter {0} Element .",size);
+            for (i = 0; i < size; i++)
+                num[i] =int.Parse(Console.ReadLine());
+            for (i = 0; i < size; i++)
+                if (num[i] % 2 == 0)
+                    sum = sum + num[i];
+
+            Console.WriteLine("Total sum of all Even number =" + sum);
+        }
+    }
+}
+==================================================================================================
+8.//Enter n number of Element and print sum of all odd number.
+
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Size :");
+            int size,i,sum=0;
+            size =Int32.Parse(Console.ReadLine());
+            int[] num = new int[size];
+            Console.WriteLine("Enter {0} Element .",size);
+            for (i = 0; i < size; i++)
+                num[i] =int.Parse(Console.ReadLine());
+            for (i = 0; i < size; i++)
+                if (num[i] % 2 == 1)
+                    sum = sum + num[i];
+
+            Console.WriteLine("Total sum of all Odd number =" + sum);
+        }
+    }
+}
+
+==============================================================================================
+9.// Enter n number of element and print sum of all odd index number.
+
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Size :");
+            int size,i,sum=0;
+            size =Int32.Parse(Console.ReadLine());
+            int[] num = new int[size];
+            Console.WriteLine("Enter {0} Element .",size);
+            for (i = 0; i < size; i++)
+                num[i] =int.Parse(Console.ReadLine());
+            for (i = 1; i < size; i=i+2)
+                    sum = sum + num[i];
+
+            Console.WriteLine("Total sum of all oddIndex number =" + sum);
+        }
+    }
+}
+=======================================================================================
+10.// Enter n number of element and print sum of all Even index number.
+
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter Size :");
+            int size,i,sum=0;
+            size =Int32.Parse(Console.ReadLine());
+            int[] num = new int[size];
+            Console.WriteLine("Enter {0} Element .",size);
+            for (i = 0; i < size; i++)
+                num[i] =int.Parse(Console.ReadLine());
+            for (i = 0; i < size; i=i+2)
+                    sum = sum + num[i];
+
+            Console.WriteLine("Total sum of all EvenIndex number =" + sum);
+        }
+    }
+}
+=======================================================================================
+11.//wap to input 5 Element to find frequency of element.
+using System;
+
+namespace Task
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int size,i,epos=0,opos=0;
+            Console.WriteLine("Enter Element Size :");
+            size = int.Parse(Console.ReadLine());
+            int[] arr = new int[size];
+            int[] even = new int[size];
+            int[] odd= new int[size];
+            Console.WriteLine("Enter {0} Element to Seperate odd and even Number ",size);
+            for ( i = 0; i < size; i++)
+                arr[i] = int.Parse(Console.ReadLine());
+
+            for (i = 0; i < size; i++)
+                if (arr[i] % 2 == 0)
+                {
+                    even[epos] = arr[i];
+                    epos++;
+
+                }
+                else {
+                    odd[opos] = arr[i];
+                    opos++;
+
+                }
+            Console.WriteLine("All Even Element :");
+            for (i = 0; i < epos; i++)
+                Console.WriteLine(even[i]);
+            Console.WriteLine("All odd Element :");
+            for (i = 0; i < epos; i++)
+                Console.WriteLine(odd[i]);
+        }
+    }
+}
+
+===============================================================================================
+using System;
+
+namespace Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // wap to input 10 Element of array and separate all positive and negative value in different array.
+            int[] arr = new int[10];
+            int[] poss = new int[10];
+            int[] neg = new int[10];
+            int i,pval=0,nval=0;
+            Console.WriteLine("Enter 10 Element :");
+            for (i = 0; i < 10; i++)
+                arr[i] = int.Parse(Console.ReadLine());
+            Console.WriteLine("Positive Element is array");
+            for (i = 0; i < 10; i++)
+            {
+                if (arr[i]>=0)
+                {
+                    poss[i] = arr[i];
+                    pval++;           
+                }
+                else{
+                    neg[i] = arr[i];
+                    nval++; 
+                }
+               }
+            Console.WriteLine("All Positive Element in array");
+            for(i=0;i<pval;i++)
+                Console.WriteLine(poss[i]);
+            Console.WriteLine("All Negetive Element in array");
+            for (i = 0; i<nval;i++)
+                Console.WriteLine(neg[i]);
+        }
+    }
+}
+=======================================================================================
+using System;
+
+namespace Program
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             int[,] num = new int[3,4];
+            int i,j;
+            Console.WriteLine("Enter 12 Element :");
+            for(i=0;i<3;i++)
+            {
+               for(j=0;j<4;j++)
+                {
+                    num[i,j] = int.Parse(Console.ReadLine());
+                }
+            }
+            // let's print 2D array...........
+            Console.WriteLine("2D array is :");
+            for (i = 0; i < 3; i++)
+            {
+                for (j = 0; j < 4; j++)
+                {
+                    Console.WriteLine(num[i,j]);
+                }
+                Console.WriteLine();
+            }
+
+
+
+        }
+    }
+}

@@ -1,0 +1,410 @@
+// wap to input A  3*3 matrix and count how many element are greater than 10.
+
+using System;
+
+namespace application1
+{
+     {
+        static void Main(string[] args)
+        {
+            int[,] num = new int[3, 3];
+            int i, j,count=0;
+            Console.WriteLine("Enter 9 number of Matrix :");
+            for (i = 0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                    num[i, j] = int.Parse(Console.ReadLine());
+                     if (num[i, j] > 10)
+                    {
+                        count++;
+                    }
+                }
+            }
+            Console.WriteLine("Matrix is : ");
+            for (i =0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                    Console.Write(num[i,j]+" ");
+ 
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine($"{count} number is greater than 10 ");
+        }
+    }
+}
+
+
+// wap to input A 3*3 and change all diagonal element by 1(Direct Input)
+using System;
+
+namespace application1
+{
+    // wap to input A 3*3 and change all diagonal element by 1(Direct Input)
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,] num = new int[,] { { 2,3,5},{4,5,6 },{7,9,12} };
+            int i, j;
+            Console.WriteLine("Matrix is :");
+            for (i = 0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                    Console.Write(num[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine(" New Matrix is : ");
+            for (i =0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                   Console.Write( num[i, j]+=1);
+                }
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+// wap to print this is a identity  matrix if all right diagonal and left diagonal elements are 1.
+using System;
+
+namespace application1
+{
+    // wap to print this is a identity  matrix if all right diagonal and left diagonal elements are 1.
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,] num = new int[,] { { 1,3,1},{4,1,6 },{1,9,5} };
+            int[] num1 = new int[5];
+            int i, j,k;
+            Console.WriteLine("Matrix is :");
+            for (i = 0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                    Console.Write(num[i, j] + " ");
+                }
+                Console.WriteLine();
+            } 
+            for (i =0; i <= 2; i++)
+            {
+                for (j = 0; j <= 2; j++)
+                {
+                    if (i + j == 2 && i == j)
+                        for (k = 0; k < 5; k++)
+                        {
+                            num1[k] = num[i, j];
+                        }
+                }
+                   
+                 }
+            int count = 0;
+            for(k=0;k<5;k++)
+            {
+                Console.WriteLine(num1[k]+"  ");
+                if (num1[k] == 1)
+                {
+                    count++;
+                }   
+            }
+            if (count == 5)
+                Console.WriteLine("This matrix is Identity  Matrix .");
+           else
+                Console.WriteLine("This matrix is not Identity  Matrix .");
+        }
+    }
+}
+
+//wap to input 6 ,5,7 element in a jagged array and print sum of all even elements of each row.
+using System;
+
+namespace application1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[][] num = new int[3][];
+            num[0] = new int[] { 3,5,8,5,7,2};
+            num[1] = new int[] { 3,4,8,2,1};
+            num[2] = new int[] { 2,4,8,2,3,4,5};
+
+            foreach (int[] arr in num)
+            {
+                int sum = 0;
+               foreach(int val in arr)
+                {
+                    if(val%2==0)
+                    {
+                        sum = sum + val;
+                    }
+                 }
+                Console.WriteLine("sum =" + sum);
+			
+            }
+
+        }
+    }
+}
+        // wap to make a jagged array with 3 rows and take user input of no. of cols and print sum of each rows.
+using System;
+
+namespace jaggad1
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            int[][] mat = new int[3][];
+            int i, j, size;
+            for(i=0;i<=2;i++)
+            {
+                Console.WriteLine($"Enter size of {i+1} row");
+                size = int.Parse(Console.ReadLine());
+                mat[i] = new int[size];
+                Console.WriteLine($"Enter {size} elements of {i+1} row");
+                for (j = 0; j < size; j++)
+                    mat[i][j] = int.Parse(Console.ReadLine());
+            }
+            Console.WriteLine("Here all elements of Jagged array");
+            foreach(int [] arr in mat)
+            {
+                foreach (int val in arr)
+                    Console.Write(val);
+                Console.WriteLine();
+            }
+            Console.WriteLine("Sum of each cols :");
+            foreach (int[] arr in mat)
+            {
+                int sum = 0;
+                foreach (int val in arr)
+                {
+                    sum = sum + val;
+                    
+                }
+                 Console.Write(sum);
+                Console.WriteLine();
+            }
+        }
+    }
+}
+
+
+// wap to input 5,4 elements in rows in jagged array and print all element of row in reverse order.
+
+
+// wap to input 3,5,7,8 in jagged array and print each row element in assending order
+22ZX// wap to input 3,5,7,8 in jagged array and print each row element in descending order.
+// wap to make a jagged array of 2,4,5 and print sum of column.4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+5}16{3    11-5*2=1
+  10
+  ----
+  X1
+  
+  5+3=8
+  
+  5/3=2*3
+  a=5,b=3
+  
+  

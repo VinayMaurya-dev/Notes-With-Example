@@ -1,0 +1,75 @@
+strcmp():-
+it is same  as strcmp() bit it ignore the casex of character of both t. it also takes two string type arguments and returns a integer type value.
+
+
+strncmp:- it is  same as dtrcmp() so it also compare that two given strings are equal or not.
+
+but it compare both strings till a given length.it need 3 arguments, first two pf strings type and last one of integer type. and returns a integer type value same as strcmp().
+
+*******************************************************************
+strnicmp():-
+********
+ strnicmp() is same as strncmp() but it ignore the cases used in both string.
+ so it compare to string till n number of character and ignores the cases of strings.
+  it returns 0 if first n character are same or returns any positive or negetive value.
+ 
+  Syntax:-
+  Int res=strnicmp(string_1, string_2,n);
+  -------------------
+  Strrev():-
+ ***************
+it reverse the value of a string. It takes only one argument and after the execution of function string value will be reverse of previous value.
+
+*****************
+strwr();-
+strwr() is used to convert all character of string to the lowercase.
+it accept only one argument and sets the argument  value to the lowercase.
+
+char name[]="TECHPILE";
+Syntax: strwr(name);
+*********************
+strupr:-
+********
+strupr() is a function accpets only string type argument
+ and  sets the argument value to it's uppercase.
+
+ strcat :-
+*********
+strcat() function is used to concatenate two string type values and assing into first argument.
+Syntax:-
+strcat(string_1,string_2);
+it takes 2 string type value as argument and returns nothing.
+
+*******************************
+
+strncat:-
+*********
+It is same as strcat() but takes 3 argument. First two argument is a string type value to be concatenated and third one is a integer type value which shows how  many charcater of second will be concatenated to the first string.
+
+strncat(strint_1,string_2,n);
+
+****************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

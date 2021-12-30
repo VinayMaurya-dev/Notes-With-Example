@@ -1,0 +1,159 @@
+------------------------------TASK----------------------------------------
+//wap to split a string by using a separator..
+
+Access modifier: public .protected, Private,Protected Internal
+create a dictionary of students to store name,email,dob,mobileno,Address and read all values form dictionary.
+
+OPPS Concept  
+Within the class,within the Subclass, within the namespace/project,Out of the Namespace
+Constructor
+what is object oriented programming language
+What is difference beetween property and method
+what is static member 
+what is access modifier
+default access specifier of class and method in c
+what is the scope of different access specifier
+what is generic and non generic class in c#.
+difference beetween value type variables and reference type variable.
+Syntax to declare array, 2D array ,jagged array ,array list, Hashtable,list, dictionary in C#.
+what is constructor.
+default constructor , parameterized Constructor,copy constructor
+can  a class have more than one Constructor.
+
+==========================================================================
+// find factorial value
+using System;
+
+namespace app1
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            Console.WriteLine("Enter a number to find  factorial :");
+            int val = int.Parse(Console.ReadLine());
+            Console.WriteLine($"factorial of {val} is = "+p1.getFact(val));
+        }
+        int getFact( int x)
+        {
+            int fact = 1;
+        for(int i=1;i<=x;i++)
+            {
+                fact = fact * i;
+            }
+            return fact;
+        
+        }
+    }
+}
+-----------------------------------------------------------------------------------------------
+//separate string With separator.....
+using System;
+
+namespace App2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            Console.WriteLine("Enter  String Value :");
+            string str = Console.ReadLine();
+            string [] s=p1.Break(str,'e');
+            foreach (string val in s)  
+            {
+                Console.WriteLine(val);
+            }
+            
+        }
+       string[] Break(string str,char separator)
+        {
+              string[] st=str.Split(separator);
+            return st;
+           
+        }
+    }
+}
+---------------------------------------------------------------------------------------------------
+// find Power of given value .......
+using System;
+
+namespace App3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            Console.WriteLine("Enter a BASE number ");
+           int Base=int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter a Power number ");
+            int power = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Power value is = " +p1.getPower(Base,power));
+        }
+        int getPower(int Base,int power) 
+        {
+            int res=(int)Math.Pow(Base,power);
+            return res;
+        }
+    }
+}
+--------------------------------------------------------------------------------------------------
+//find String value in Array type string...
+using System;
+
+namespace App4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            string[] arr = { "VINAY","TECHPILE","KABIR","MAHESH","RADHA","LALIT" };
+           string Res= p1.GetValue(arr,5);
+            Console.WriteLine($"Seaches String :{Res}:  in  array Type String.");
+        }
+       string GetValue(string[]arr,int index )
+        {
+            if(arr.Length>index)
+                return arr[index];
+            else
+            return "-1";
+        }
+    }
+}
+------------------------------------------------------------------------------------------
+using System;
+using System.Collections;
+namespace App5
+{
+    class Program
+    {
+       
+        static void Main(string[] args)
+        {
+            Program p1 = new Program();
+            Hashtable student = new Hashtable();
+            student.Add("name","Vinay");
+            student.Add("DOB","23/09/2001");
+            student.Add("Mob","7080796463");
+            Console.WriteLine(p1.getValueHagh(student,"name"));
+        }
+        object getValueHagh(Hashtable hash, object key)
+        { 
+            foreach (object k in hash.Keys)
+            {
+                if (k == key)
+                {
+                    return hash[k];
+                }
+            }
+            return "-1";
+        }
+    }
+}
+
+

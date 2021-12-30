@@ -1,0 +1,16 @@
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.exe
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.deps.json
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.runtimeconfig.json
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.runtimeconfig.dev.json
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.dll
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\ref\GetSpaces.dll
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\bin\Debug\net5.0\GetSpaces.pdb
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.csproj.AssemblyReference.cache
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.GeneratedMSBuildEditorConfig.editorconfig
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.AssemblyInfoInputs.cache
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.AssemblyInfo.cs
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.csproj.CoreCompileInputs.cache
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.dll
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\ref\GetSpaces.dll
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.pdb
+D:\Apprenticeship_vinay\.NET\GetSpaces\GetSpaces\obj\Debug\net5.0\GetSpaces.genruntimeconfig.cache

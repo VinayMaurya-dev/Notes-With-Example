@@ -1,0 +1,221 @@
+﻿ * enctype="text/plane || multipart/form-data"
+ 
+ * method="get||Post"
+
+difference between get vs post:
+---------------------------------
+get:-
+-----
+ 1:- less secure
+ 2:-file upload is not possible
+ 3:- Used for small file
+Post:-
+-----
+ 1:- more secure
+ 2:-file upload is possible.
+ 3:-used for large file.
+-------------------------------
+accept : file Extention ||image/*||audio/* video/*
+-----------
+<form  autocomplete="off">
+<input required type="text" value="Vinay Mauyra"/>
+</form>
+-------------
+some attribute:-
+-----------
+ * Readonly
+ * Required
+ * placeholder
+ * value
+ * min
+ * max
+ * maxlength 
+ 
+Data list in Html
+-----------  
+<input type="text"  list="a"/>
+<datalist id="a">
+<option>lucknow</option>
+<option>kanpur</option>
+<option>Ambedkar Nagar</option>
+</datalist>
+
+<p contenteditable="true" spellcheck="ture"> vinay how going your life.</p>
+
+
+css--
+developer  10 October  1996 ( Håkon Wium Lie )
+--------------
+border type:-
+solid || dotted|| double|| groove || dashed
+
+----------------------------------------------------------------------
+
+font-weight: bolder||Lighter|| 200
+font-style:italic
+box-shadow: horizontal vertical blur color ;
+box-sizing:border-box; || default content-box
+background-repeat:no-repeat;
+background:linear-gradient(color1,color2,...color N);
+background:url('image_ path');
+opacity:1; default;
+
+**************************************
+
+linear-gradient();
+repeating-linear-gradient();
+
+radial-gradient();
+repeating-radial-gradient();
+
+conic-gradient();
+repeating-conic-gradient();
+
+****************************************
+=================================================
+some special rule for including selecter:-
+1.   p:last-child(it's may be h1,p,div anything.)
+
+2.   p:nth-child(odd) 
+
+3.  p:nth-child(even) 
+
+4.tag:not(tag_name)
+
+
+Transform: rotate| skew| skewX|skewY|scaleX|scaleY|translate|translateX|translateY|
+rotateX|rotateY
+perspective:500px;
+ trasnform-style:preserve-3d;
+transform-origin:left|right;
+
+Animations:-
+----------------
+@keyframes animationName
+{
+from{
+propertyName:value;
+propertyName:value;
+propertyName:value;
+}
+to{
+propertyName:value;
+propertyName:value;
+propertyName:value;
+}
+}
+
+============
+  animation-name
+ animation-durataion
+ animation-direction
+animation-delay
+animation-iteration-count
+
+animation-timing-function
+
+
+ease|  ease-in |ease-out |ease-in-out| linear
+animation-play-state:paused|running
+animation-fill-mode:backwords|forwoards|both|none
+---------------------
+Animation Direction:- normal | reverse| alternate |alternate-reverse
+------------------------------
+************************
+animation-timing-function:-
+************************
+ease:-start slow then fast end slow
+ease-in:- start slow
+ease-out:- end slow
+ease-in-out:- start slow and end  slow
+linear:- same from start to end 
+================================================================
+@kayframes Animation_name{
+0%{
+background:orange;
+}
+25%{
+background:red;
+}
+30%{
+background:blue;
+}
+100%{
+
+}
+}
+======================
+Text Style  Property:-
+**********************
+text-transform:uppercase;
+text-trasnform:lowercase;
+text-transform:capitalize;
+text-indent:350px;
+*************
+===========================
+News paper
+*************
+Column-count
+column-gap
+column-rule-style
+column-rule-width
+column-rule-color
+column-span
+**************************************************
+
+BACKGROUND FILTER:-
+****************
+filter: grayscale(100%);
+filter:brightness(90%);
+filter:contrast(90%);
+filter:hue-rotate(130deg);
+filter:sepia(100%);
+filter:blur(2px);
+filter:saturation();
+filter:invert();
+filter:drop-shadow(5px 5px 4px 3px orange);
+filter:opacity(50%);
+
+*****************
+BACKDROW FILTER:-
+************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
